@@ -2,7 +2,7 @@
 
 A creative hamburger navigation system that reveals an animated radial menu when toggled with ring system which holds navigation items and beautiful animation for hamburger icon itself. It's animated with jQuery and GSAP's TweenMax.js.
 
-![Creative Radial Menu with TweenMax](https://coidea.website/api/wp-content/uploads/2018/12/creative-radial-menu-with-tweenmax.png)
+![Creative Radial Menu with TweenMax](https://coidea.website/api/wp-content/uploads/2018/12/creative-radial-menu-with-tweenmax-main.png)
 
 [Article on COIDEA](https://coidea.website/categories/challenges/creative-radial-menu-with-tweenmax/)
 
