@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Creative Radial Menu with TweenMax - COIDEA</title>
+		<meta name="description" content="A creative hamburger navigation system that reveals an animated radial menu when toggled with ring system which holds navigation items and beautiful animation for hamburger icon itself." />
+		<meta name="keywords" content="fullscreen, animation, inspiration, javascript, html5, css3, code, navigation" />
+		<meta name="author" content="Mirza Hodzic - COIDEA" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="assets/css/base.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
+    
+    <!-- DELETE THIS PART ( Global site tag (gtag.js) - Google Analytics ) - START -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124048250-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-124048250-1');
+    </script>
+    <!-- DELETE THIS PART ( Global site tag (gtag.js) - Google Analytics ) - END -->
+
+  </head>
+  <body>
+
+    <!-- COIDEA:header START -->
+    <header class="coidea-header">
+      <div class="coidea-links">
+        <a class="coidea-icon-back" href="https://coidea.website/categories/challenges/creative-radial-menu-with-tweenmax/" title="Back to the article">C</a>
+        <a class="coidea-icon-github" href="https://github.com/COIDEAwebsite/creative-radial-menu-with-tweenmax" target="_blank" title="This article on Github">G</a>
+      </div>
+    </header>
+    <!-- COIDEA:header END -->
+    
+    <!-- COIDEA:demo START -->
+    <header style="background: url(assets/img/bg.jpeg) no-repeat center center fixed;">
+      <ul class="navigation">
+        
+        <!-- navigation START -->
+        <li data-width="420" data-height="420">
+          <a href="#">Home</a>
+        </li>
+        <li data-width="356" data-height="356">
+          <a href="#">Team</a>
+        </li>
+        <li data-width="292" data-height="292">
+          <a href="#">Work</a>
+        </li>
+        <li data-width="228" data-height="228">
+          <a href="#">Partner</a>
+        </li>
+        <li data-width="164" data-height="164">
+          <a href="#">Contact</a>
+        </li>
+        <!-- navigation END -->
+        
+        <!-- navigation:background-helper START -->
+        <div class="header-transparent"></div>
+        <!-- navigation:background-helper END -->
+        
+        <!-- navigation:trigger START -->
+        <div id="menu-trigger">
+          <div id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div id="close">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <!-- navigation:trigger END -->
+        
+      </ul>
+    </header>    
+    <!-- COIDEA:demo END -->
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+    
+    <script src="assets/js/demo.js"></script>
+
+  </body>
+</html>
